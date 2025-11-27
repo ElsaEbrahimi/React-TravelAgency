@@ -2,8 +2,8 @@ import { NavLink } from "react-router";
 const Header = () => {
   return (
     <>
-      <nav className="bg-base-100 shadow-sm ">
-        <ul className="flex flex-row">
+      <nav className="shadow-sm fixed w-full top-0 left-0 z-50 text-gray-800">
+        <ul className="px-8 flex flex-row justify-end items-center">
           <li>
             <NavLink className="btn btn-ghost text-xl" to="/">
               {" "}
