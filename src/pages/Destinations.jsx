@@ -5,7 +5,7 @@ const Destinations = () => {
   const destinations = useOutletContext();
 
   return (
-    <div className="min-h-screen bg-linear-to-l from-[#94bdbd] to-[#176c81] p-8">
+    <div className="min-h-screen bg-linear-to-l  from-[#94bdbd] to-[#176c81] p-8">
       <h1 className="text-white text-4xl font-bold pt-4 mb-8 text-center">
         Our Popular Destinations
       </h1>
