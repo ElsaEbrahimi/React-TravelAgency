@@ -9,7 +9,7 @@ const MainLayout = () => {
   useEffect(() => {
     const fetchData = async () => {
       const data = await loadDes();
-      console.log("Data:", data);
+      // console.log("Data:", data);
       setDestinations(data);
     };
     fetchData();
