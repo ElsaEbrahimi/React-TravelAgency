@@ -6,11 +6,11 @@ const Home = () => {
     <div>
       <section className="hero min-h-screen bg-[url('/home-bg.jpg')]  ">
         <div className="hero-content flex-col items-start">
-          <div className="flex-col bg-white/30 rounded-2xl mx-8 p-6 items-start backdrop-blur-sm">
+          <div className="flex-col bg-white/40 rounded-2xl mx-8 p-6 items-start backdrop-blur-sm">
             <span className="text-gray-700 text-sm ">
               Beaches . Plains . Mountains
             </span>
-            <h1 className="text-gray-700 text-6xl font-bold leading-tight">
+            <h1 className="text-white text-6xl font-bold leading-tight">
               Spend your vacation <br></br>with our activites
             </h1>
           </div>
