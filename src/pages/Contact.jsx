@@ -32,7 +32,7 @@ const Contact = () => {
     setFormstate(initialFormState);
   };
   return (
-    <div className="min-h-screen bg-gradient-to-l from-[#94bdbd] to-[#176c81] flex justify-center items-center p-4 sm:p-8 text-gray-600">
+    <div className="min-h-screen bg-linear-to-l from-[#94bdbd] to-[#176c81] flex justify-center items-center p-4 sm:p-8 text-gray-600">
       <form
         onSubmit={handleSubmit}
         className="fieldset bg-base-200 border-base-300 rounded-box w-full max-w-lg sm:max-w-md md:max-w-lg border p-6 sm:p-8 space-y-4"
